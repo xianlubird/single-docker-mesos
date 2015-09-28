@@ -18,7 +18,7 @@
 **1. 下载Docker镜像:**
 
 ```sh
-sudo docker pull kiwenlau/single-mesos:3.0
+docker pull index.alauda.cn/a352193394/single-docker-mesos
 ```
 
 **2. 运行Docker容器:**
