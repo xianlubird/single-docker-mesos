@@ -24,7 +24,7 @@ docker pull index.alauda.cn/a352193394/single-docker-mesos
 **2. 运行Docker容器:**
 
 ```sh
-docker run -p 8080:8080 -p 5050:5050 --name mesos -ti -w /root -v /sys/fs/cgroup:/sys/fs/cgroup -v /var/run/docker.sock:/var/run/docker.sock mesos-single
+docker run -p 8080:8080 -p 5050:5050 --name mesos -ti -w /root -v /sys/fs/cgroup:/sys/fs/cgroup -v /var/run/docker.sock:/var/run/docker.sock single-docker-mesos
 
 ```
 
